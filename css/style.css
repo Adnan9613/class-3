@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    background-color: #867ae9;
+    width: 100%;
+    
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+.offer h1{
+    color: #fff5ab;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+.box1{
+
+    flex-basis: 32%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0a1931;
+    color: #ffc947;
+    border-radius: 2%;
+    margin-bottom: 20px;
+
+}
+
+.box1 span{
+    color: #f9813a;
+}
+
+.box1 h3{
+    font-size: 2em;
+    font-weight: 700;
+}
+.box1 h5{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.box1 img{
+    width: 200px;
+}
+
+.box1 del{
+    margin-left: 20px;
+}
+
+.box2{
+    flex-basis: 32%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0a1931;
+    color: #ffc947;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+
+.box2 span{
+    color: #1eae98;
+}
+
+.box2 img{
+    width: 200px;
+}
+
+.box2 h3{
+    font-size: 2em;
+    font-weight: 700;
+}
+.box2 h5{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.box2 del{
+    margin-left: 20px;
+}
+
+.box3{
+    flex-basis: 32%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0a1931;
+    color: #ffc947;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+
+.box3 span{
+color: #184d47;
+
+}
+
+.box3 img{
+    width: 200px;
+}
+
+.box3 h3{
+    font-size: 2em;
+    font-weight: 700;
+}
+.box3 h5{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.box3 del{
+    margin-left: 20px;
+    
+}
+
+button{
+background-color: #fff5ab;
+outline: none;
+border-color: #fff5ab;
+padding: 10px 15px;
+margin-bottom: 12px;
+margin-right: 4px;
+color: #39a9cb;
+font-size: 12px;
+font-weight: 700;
+border-radius: 5%;
+
+}
+
+button:hover{
+
+    color: #ffc947;
+    background-color: transparent;
+}
